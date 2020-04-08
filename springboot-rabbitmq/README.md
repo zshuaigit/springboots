@@ -91,6 +91,11 @@ Topic Exchange
 所以主题交换机也就实现了扇形交换机的功能和直连交换机的功能。
 
 
+参考
+https://blog.csdn.net/qq_35387940/article/details/100514134###
+
+
+
 
 
 

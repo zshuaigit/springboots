@@ -1,0 +1,248 @@
+2020-04-04 00:40:01.431  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#16]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57359, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.430  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#4]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57363, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.430  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#11]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57354, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.431  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#12]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57355, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.431  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#2]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57362, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.430  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#5]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57364, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.431  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#15]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57358, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.431  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#13]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57356, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.430  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#7]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57366, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.431  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#14]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57357, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.430  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#3]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57361, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.431  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#1]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57360, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:01.430  WARN 497 --- [elasticsearch[_client_][transport_client_boss][T#6]] o.e.transport.netty4.Netty4Transport     : exception caught on transport layer [NettyTcpChannel{localAddress=/192.168.199.116:57365, remoteAddress=/49.233.164.73:9300}], closing connection
+
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:577)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:531)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-04 00:40:45.308  INFO 497 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

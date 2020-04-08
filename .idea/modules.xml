@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/rabbitmq-provider/rabbitmq-provider.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/rabbitmq-provider/rabbitmq-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboots.iml" filepath="$PROJECT_DIR$/springboots.iml" />
     </modules>
   </component>

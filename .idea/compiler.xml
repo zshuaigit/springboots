@@ -9,6 +9,7 @@
         <module name="rabbitmq-consumer" />
         <module name="rabbitmq-provider" />
         <module name="springboot-elasticsearch" />
+        <module name="springboot-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="rabbitmq-provider" target="1.8" />
       <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
       <module name="springboots" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -25,6 +27,7 @@
       <module name="rabbitmq-provider" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
     </option>
   </component>
 </project>
