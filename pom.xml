@@ -16,6 +16,7 @@
         <module>springboot-jwt</module>
         <module>springboot-encry</module>
         <module>springboot-mail</module>
+        <module>springboot-qrcode</module>
     </modules>
 
     <parent>
