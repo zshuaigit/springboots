@@ -2,6 +2,7 @@ package com.zshuai.springboot.controller;
 
 import com.zshuai.springboot.service.IndexService;
 import com.zshuai.springboot.vo.User;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -56,6 +57,7 @@ public class IndexController {
     @DeleteMapping("/user/{id}")
     public Boolean deleteById(@PathVariable("id") String id){
 
+        StringUtils.
         return indexService.deleteById(id);
     }
 }

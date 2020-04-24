@@ -12,6 +12,10 @@
         <module>springboot-elasticsearch</module>
         <module>springboot-rabbitmq</module>
         <module>springboot-redis</module>
+        <module>springboot-security</module>
+        <module>springboot-jwt</module>
+        <module>springboot-encry</module>
+        <module>springboot-mail</module>
     </modules>
 
     <parent>

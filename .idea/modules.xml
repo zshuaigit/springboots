@@ -5,8 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/rabbitmq-consumer/rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/rabbitmq-consumer/rabbitmq-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/rabbitmq-provider/rabbitmq-provider.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/rabbitmq-provider/rabbitmq-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-encry/springboot-encry.iml" filepath="$PROJECT_DIR$/springboot-encry/springboot-encry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" filepath="$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mail/springboot-mail.iml" filepath="$PROJECT_DIR$/springboot-mail/springboot-mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboots.iml" filepath="$PROJECT_DIR$/springboots.iml" />
     </modules>
   </component>

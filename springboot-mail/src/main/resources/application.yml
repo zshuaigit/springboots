@@ -1,0 +1,25 @@
+server:
+  port: 2001
+spring:
+  mail:
+    host: smtp.163.com
+    port: 465
+    username: zshuai1722@163.com
+    # 第三方的授权码
+    password: GVBMMGAHBGLGWBFU
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timout: 25000
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+          starttls:
+            enable: true
+            required: true
+#日志打印
+logging:
+  level:
+    root: info # root日志以info形式输出
+    com.zshuai: debug #com.zshuai包下面的日志全部以debug级别输出
+  file: log/mail.log

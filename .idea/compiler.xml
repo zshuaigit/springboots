@@ -9,15 +9,23 @@
         <module name="rabbitmq-consumer" />
         <module name="rabbitmq-provider" />
         <module name="springboot-elasticsearch" />
+        <module name="springboot-encry" />
+        <module name="springboot-jwt" />
+        <module name="springboot-mail" />
         <module name="springboot-redis" />
+        <module name="springboot-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rabbitmq-consumer" target="1.8" />
       <module name="rabbitmq-provider" target="1.8" />
       <module name="springboot-elasticsearch" target="1.8" />
+      <module name="springboot-encry" target="1.8" />
+      <module name="springboot-jwt" target="1.8" />
+      <module name="springboot-mail" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-redis" target="1.8" />
+      <module name="springboot-security" target="1.8" />
       <module name="springboots" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -26,8 +34,12 @@
       <module name="rabbitmq-consumer" options="-parameters" />
       <module name="rabbitmq-provider" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
+      <module name="springboot-encry" options="-parameters" />
+      <module name="springboot-jwt" options="-parameters" />
+      <module name="springboot-mail" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
     </option>
   </component>
 </project>
